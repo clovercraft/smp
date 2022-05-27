@@ -8,7 +8,6 @@ This repository tracks the underlying files for the Clovercraft SMP, as well as 
 - Datapack version history
 - Server configurations
 - Any file based game modifications
-- Officially distributed modpacks
 
 ## What's not included here?
 
