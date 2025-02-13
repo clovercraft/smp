@@ -1,6 +1,6 @@
 # Clovercraft SMP Issue Tracker
 
-This repository tracks known bugs, suggestions, and required changes for the Clovercraft SMP. Please check the [issues](./issues) page for current status.
+This repository tracks known bugs, suggestions, and required changes for the Clovercraft SMP. Please check the [issues](https://github.com/clovercraft/smp/issues) page for current status.
 
 ## Reporting Player Issues
 
