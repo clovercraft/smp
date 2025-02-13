@@ -2,7 +2,8 @@
 name: Suggestion
 about: Create a report to help us improve the server
 title: ""
-labels: suggestion, pending
+labels: pending
+type: Feature
 ---
 
 ## Description of Bug

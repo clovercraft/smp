@@ -2,7 +2,8 @@
 name: Bug report
 about: Create a report to help us improve the server
 title: ""
-labels: bug, pending
+labels: pending
+type: Bug
 ---
 
 ## Description of Bug

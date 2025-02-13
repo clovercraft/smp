@@ -2,7 +2,7 @@
 name: Task
 about: Document required changes such as plugin updates and migrations
 title: ""
-labels: task
+type: Task
 ---
 
 ## Description of Work
