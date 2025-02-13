@@ -21,14 +21,14 @@ body:
     attributes:
       label: Bug Description
       description: Please describe the problem as clearly as you can in a few sentences.
-    validation:
+    validations:
       required: true
   - type: textarea
     id: expected
     attributes:
       label: Expected Behavior
       description: A clear and concise description of what you expected to happen
-    validation:
+    validations:
       required: true
   - type: dropdown
     id: client
@@ -43,5 +43,5 @@ body:
         - "other forge"
         - "other modded"
       default: 0
-    validation:
+    validations:
       required: false
