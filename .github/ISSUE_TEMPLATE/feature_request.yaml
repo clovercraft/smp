@@ -1,0 +1,43 @@
+name: Feature Request
+description: Suggest a new feature to add to the SMP
+title: "[Suggestion] "
+labels: ["pending"]
+type: Feature
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for providing your input. Please be as detailed as possible. If you have a specific solution in mind, provide links. If not, we will review internally and determine if a viable solution exists.
+
+        As a note, Clovercraft runs on [PaperMC](https://papermc.io), which supports Paper/Spigot/Bukkit plugins. Client-Side only mods can be added to the modpacks, but we cannot add Fabric/Forge mods to the server.
+  - type: input
+    id: contact
+    attributes:
+      label: Discord Contact Info
+      description: Please provide your discord handle in case we need to ask follow up questions.
+      placeholder: ex. Zenfrii
+    validations:
+      required: false
+  - type: checkboxes
+    id: environment
+    attributes:
+      label: Where would we make this change?
+      description: Please select all impacted environments. Keep in mind, mods can only be added client-side.
+      options:
+        - label: Server
+        - label: Client
+        - label: Both
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested Feature
+      description: Please describe your suggestion as clearly as possible. Focus on what you want to see and why.
+    validations:
+      required: true
+  - type: textarea
+    id: resources
+    attributes:
+      label: Suggested Resources
+      description: Do you know of any plugins or client-side mods that implement the functionality you want? Let us know!
+    validations:
+      required: false
