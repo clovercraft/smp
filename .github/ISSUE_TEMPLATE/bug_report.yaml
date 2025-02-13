@@ -1,6 +1,6 @@
 name: Bug Report
 description: Create a report about a problem with the SMP
-title: ""
+title: "[Bug] "
 labels: ["pending"]
 type: Bug
 body:
