@@ -1,0 +1,47 @@
+name: Bug Report
+description: Create a report about a problem with the SMP
+title: ""
+labels: ["pending"]
+type: Bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: contact
+    attributes:
+      label: Discord Contact Info
+      description: Please provide your discord handle in case we need to ask follow up questions.
+      placeholder: ex. Zenfrii
+    validations:
+      required: false
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Bug Description
+      description: Please describe the problem as clearly as you can in a few sentences.
+    validation:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: A clear and concise description of what you expected to happen
+    validation:
+      required: true
+  - type: dropdown
+    id: client
+    attributes:
+      label: Client Type
+      description: Please let us know what type of client you were running when you encountered this bug.
+      options:
+        - vanilla
+        - "CC Ultimate Pack"
+        - "CC QOL Pack"
+        - "other fabric"
+        - "other forge"
+        - "other modded"
+      default: 0
+    validation:
+      required: false
